@@ -17,6 +17,8 @@ public class MainActivity extends Activity
     public void onCreate(Bundle savedInstanceState)
 	{
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.gallery_display);
+        /*
         setContentView(R.layout.main);
 
 		mGallery=(GridView)findViewById(R.id.gallery);
@@ -29,6 +31,6 @@ public class MainActivity extends Activity
 		images.add(getResources().getDrawable(R.drawable.img_6));
 		
 		ImageAdapter imagesAdapter = new ImageAdapter(this,images);
-		mGallery.setAdapter(imagesAdapter);
+		mGallery.setAdapter(imagesAdapter);      */
     }
 }
