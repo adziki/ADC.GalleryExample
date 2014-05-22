@@ -1,5 +1,6 @@
 package org.musteat.adziki.adc.gallery;
 
+
 import android.app.*;
 import android.os.*;
 import android.view.*;
@@ -18,6 +19,7 @@ public class MainActivity extends Activity
 	{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_display);
+        float swDp = getResources().getConfiguration().smallestScreenWidthDp;
         /*
         setContentView(R.layout.main);
 
